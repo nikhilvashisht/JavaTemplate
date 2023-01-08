@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public static class Reader {
+public class Reader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
         private byte[] buffer;
@@ -126,7 +126,4 @@ public static class Reader {
         }
     }
   
-    public static void main(String[] args)
-        throws IOException
-    {
-    }
+ 
